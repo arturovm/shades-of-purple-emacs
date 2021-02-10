@@ -1,4 +1,4 @@
-;;; shades-of-purple-theme --- Ported from the original by github.com/ahmadawais.
+;;; shades-of-purple-theme.el --- A theme with bold shades of purple
 
 ;;
 ;; This program is free software: you can redistribute it and/or modify
@@ -15,12 +15,17 @@
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ;;
 
+;; Author: Arturo Vergara <hello@dead.computer>
+;; URL: https://github.com/arturovm/shades-of-purple-emacs
+;; Version: 0.1.0
+
 
 ;;; Commentary:
+;; Ported from the original by github.com/ahmadawais
 
 ;;; Code:
 (deftheme shades-of-purple
-  "Ported from the original by github.com/ahmadawais.")
+  "A theme with bold shades of purple")
 
 (custom-theme-set-faces
  'shades-of-purple
