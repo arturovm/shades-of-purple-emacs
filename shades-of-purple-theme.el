@@ -43,9 +43,9 @@
  '(shadow            ((t (:foreground "#494685"))))
  '(error             ((t (:foreground "#EC3A37" :weight bold))))
  '(next-error        ((t (:inherit error :weight normal))))
- ;; modeline and minibuffer
+ ;; mode-line and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
- '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC"))))
+ '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC" :weight light))))
  '(minibuffer-prompt  ((t (:foreground "#FAD000"))))
  ;; font lock
  '(font-lock-keyword-face           ((t (:foreground "#FF9D00"))))
