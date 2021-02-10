@@ -4,6 +4,11 @@ Ported from the
 [original](https://github.com/ahmadawais/shades-of-purple-vscode), by
 [Ahmad Gawais](https://twitter.com/MrAhmadAwais).
 
+![Screenshot of Shades of Purple running on Emacs](img/screenshot.png)
+
+_In the screenshot: IBM Plex Mono, default mode-line,
+[state-flow](http://github.com/nubank/state-flow)._
+
 ## Installation
 
 The recommended way to install this theme is via
