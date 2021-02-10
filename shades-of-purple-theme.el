@@ -42,7 +42,7 @@
  '(warning           ((t (:foreground "#FAD000" :weight bold))))
  '(shadow            ((t (:foreground "#494685"))))
  '(error             ((t (:foreground "#EC3A37" :weight bold))))
- '(next-error        ((t (:foreground "#EC3A37"))))
+ '(next-error        ((t (:inherit error :weight normal))))
  ;; modeline and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
  '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC"))))
@@ -65,9 +65,9 @@
  '(flycheck-info    ((t (:underline (:color "#A599E9" :style wave)))))
  '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave)))))
  ;; search
- '(isearch        ((t (:background "#FF7300" :distant-foreground "#2D2B55"))))
- '(lazy-highlight ((t (:background "#FFFF03" :foreground "#2D2B55"))))
- '(match          ((t (:background "#FF7300" :distant-foreground "#2D2B55")))))
+ '(isearch        ((t (:background "#FF7300" :foreground "#2D2B55"))))
+ '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
+ '(match          ((t (:inherit isearch)))))
 
 (provide-theme 'shades-of-purple)
 ;;; shades-of-purple-theme.el ends here
