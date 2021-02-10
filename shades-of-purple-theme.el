@@ -45,7 +45,7 @@
  '(next-error        ((t (:foreground "#EC3A37"))))
  ;; modeline and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
- '(mode-line-inactive ((t (:background "#494685" :foreground "#FFFFFF"))))
+ '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC"))))
  '(minibuffer-prompt  ((t (:foreground "#FAD000"))))
  ;; font lock
  '(font-lock-keyword-face           ((t (:foreground "#FF9D00"))))
