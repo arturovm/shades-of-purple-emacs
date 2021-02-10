@@ -1,5 +1,6 @@
 ;;; shades-of-purple-theme.el --- A theme with bold shades of purple
 
+;; Copyright (C) 2021 by Arturo Vergara
 ;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -13,12 +14,10 @@
 ;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
-;;
 
 ;; Author: Arturo Vergara <hello@dead.computer>
 ;; URL: https://github.com/arturovm/shades-of-purple-emacs
 ;; Version: 0.1.0
-
 
 ;;; Commentary:
 ;; Ported from the original by github.com/ahmadawais

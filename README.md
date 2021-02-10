@@ -9,7 +9,9 @@ Ported from the
 The recommended way to install this theme is via
 [MELPA](https://melpa.org/#/getting-started), with `package.el`.
 
-## License
+## License & Copyright
+
+Copyright (C) 2021 by Arturo Vergara
 
 This program is free software: you can redistribute it and/or modify it under the
 terms of the GNU General Public License as published by the Free Software
