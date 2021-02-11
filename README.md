@@ -26,8 +26,8 @@ customize interface (<kbd>Meta</kbd>+<kbd>X</kbd> customize-themes
 
 ### `use-package`
 
-Obtain the package from [MELPA](https://melpa.org/#/getting-started), or
-configure `use-package` to always download missing packages:
+Obtain the theme from [MELPA](https://melpa.org/#/getting-started), or configure
+`use-package` to always download missing packages:
 
 ``` elisp
 (setq use-package-always-ensure t)
