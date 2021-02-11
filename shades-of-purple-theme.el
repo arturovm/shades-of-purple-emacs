@@ -40,13 +40,14 @@
  '(link              ((t (:foreground "#9EFFFF"))))
  '(success           ((t (:foreground "#3AD900" :weight bold))))
  '(warning           ((t (:foreground "#FAD000" :weight bold))))
- '(shadow            ((t (:foreground "#494685"))))
  '(error             ((t (:foreground "#EC3A37" :weight bold))))
  '(next-error        ((t (:inherit error :weight normal))))
+ '(shadow            ((t (:foreground "#494685"))))
  ;; mode-line and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
  '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC" :weight light))))
  '(minibuffer-prompt  ((t (:foreground "#FAD000"))))
+ '(show-paren-match   ((t (:inherit highlight :foreground "#FFEE80"))))
  ;; font lock
  '(font-lock-keyword-face           ((t (:foreground "#FF9D00"))))
  '(font-lock-constant-face          ((t (:foreground "#FF628C"))))
