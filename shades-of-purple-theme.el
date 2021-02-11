@@ -69,5 +69,10 @@
  '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
  '(match          ((t (:inherit isearch)))))
 
+;;;###autoload
+(when (and (boundp 'custom-theme-load-path) load-file-name)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'shades-of-purple)
 ;;; shades-of-purple-theme.el ends here
