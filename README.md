@@ -2,7 +2,7 @@
 
 Ported from the
 [original](https://github.com/ahmadawais/shades-of-purple-vscode), by
-[Ahmad Gawais](https://twitter.com/MrAhmadAwais).
+[Ahmad Awais](https://twitter.com/MrAhmadAwais).
 
 ![Screenshot of Shades of Purple running on Emacs](img/screenshot.png)
 
