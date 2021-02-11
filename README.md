@@ -11,8 +11,32 @@ _In the screenshot: IBM Plex Mono, default mode-line,
 
 ## Installation
 
-The recommended way to install this theme is via
-[MELPA](https://melpa.org/#/getting-started), with `package.el`.
+### `package.el`
+
+Obtain the theme from [MELPA](https://melpa.org/#/getting-started). Then use the
+customize interface (<kbd>Meta</kbd>-<kbd>X</kbd> customize-themes
+<kbd>Enter</kbd>) or add the following to your init file:
+
+```elisp
+;; near the top of the file
+(package-init)
+
+(load-theme 'shades-of-purple t)
+```
+
+### `use-package`
+
+Obtain the package from [MELPA](https://melpa.org/#/getting-started), or
+configure `use-package` to always download missing packages:
+
+``` elisp
+(setq use-package-always-ensure t)
+```
+
+```elisp
+(use-package shades-of-purple-theme
+  :config (load-theme 'shades-of-purple t))
+```
 
 ## License & Copyright
 
