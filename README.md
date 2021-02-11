@@ -14,8 +14,8 @@ _In the screenshot: IBM Plex Mono, default mode-line,
 ### `package.el`
 
 Obtain the theme from [MELPA](https://melpa.org/#/getting-started). Then use the
-customize interface (<kbd>Meta</kbd>+<kbd>X</kbd> customize-themes
-<kbd>Enter</kbd>) or add the following to your init file:
+customize interface (<kbd>M-x</kbd> `customize-themes` <kbd>RET</kbd>) or add the
+following to your init file:
 
 ```elisp
 ;; near the top of the file
