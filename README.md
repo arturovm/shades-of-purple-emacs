@@ -33,6 +33,8 @@ configure `use-package` to always download missing packages:
 (setq use-package-always-ensure t)
 ```
 
+Then add the following to your init file:
+
 ```elisp
 (use-package shades-of-purple-theme
   :config (load-theme 'shades-of-purple t))
