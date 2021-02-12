@@ -33,7 +33,7 @@
  '(cursor       ((t (:background "#FAD000"))))
  '(escape-glyph ((t (:foreground "#9EFFFF"))))
  '(highlight    ((t (:background "#7E46DF"))))
- '(region       ((t (:background "#B362FF"))))
+ '(region       ((t (:background "#B362FF" :foreground "#FFEE80"))))
  ;; ui elements
  '(fringe            ((t (:inherit default))))
  '(line-number       ((t (:foreground "#A599E9"))))
@@ -58,17 +58,17 @@
  '(font-lock-builtin-face           ((t (:foreground "#FAD000"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#B362FF"))))
  '(font-lock-comment-face           ((t (:foreground "#B362FF"))))
+ ;; search and replace
+ '(isearch        ((t (:background "#FF7300" :foreground "#2D2B55"))))
+ '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
+ '(match          ((t (:inherit isearch))))
  ;; ido
  '(ido-subdir     ((t (:foreground "#FFEE80"))))
  '(ido-only-match ((t (:foreground "#FAEFA5"))))
  ;; flycheck
  '(flycheck-warning ((t (:underline (:color "#FAD000" :style wave)))))
  '(flycheck-info    ((t (:underline (:color "#A599E9" :style wave)))))
- '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave)))))
- ;; search
- '(isearch        ((t (:background "#FF7300" :foreground "#2D2B55"))))
- '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
- '(match          ((t (:inherit isearch)))))
+ '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
