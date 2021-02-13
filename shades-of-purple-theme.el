@@ -76,4 +76,5 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'shades-of-purple)
+(provide 'shades-of-purple-theme)
 ;;; shades-of-purple-theme.el ends here
