@@ -6,7 +6,7 @@ Ported from the
 
 ![Screenshot of Shades of Purple running on Emacs](img/screenshot.png)
 
-_In the screenshot: IBM Plex Mono, default mode-line,
+_In the screenshot: MonoLisa, default mode-line,
 [state-flow](http://github.com/nubank/state-flow)._
 
 ## Installation
