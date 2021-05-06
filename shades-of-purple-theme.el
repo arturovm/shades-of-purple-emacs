@@ -54,12 +54,12 @@
  '(font-lock-keyword-face           ((t (:foreground "#FF9D00"))))
  '(font-lock-constant-face          ((t (:foreground "#FF628C"))))
  '(font-lock-string-face            ((t (:foreground "#A5FF90"))))
- '(font-lock-type-face              ((t (:foreground "#FB94FF"))))
+ '(font-lock-type-face              ((t (:foreground "#FAD000"))))
  '(font-lock-variable-name-face     ((t (:foreground "#9EFFFF"))))
  '(font-lock-function-name-face     ((t (:foreground "#FAD000"))))
  '(font-lock-builtin-face           ((t (:foreground "#FAD000"))))
- '(font-lock-comment-delimiter-face ((t (:foreground "#B362FF"))))
- '(font-lock-comment-face           ((t (:foreground "#B362FF"))))
+ '(font-lock-comment-face           ((t (:foreground "#B362FF" :slant italic))))
+ '(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
  ;; search and replace
  '(isearch        ((t (:background "#FF7300" :foreground "#2D2B55"))))
  '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
@@ -83,7 +83,10 @@
  '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave)))))
  ;; idris
  '(idris-identifier-face ((t (:inherit font-lock-variable-name-face))))
- '(idris-operator-face   ((t (:inherit font-lock-builtin-face)))))
+ '(idris-operator-face   ((t (:inherit font-lock-keyword-face))))
+ ;; tuareg
+ '(tuareg-font-lock-governing-face   ((t (:foreground "#FB94FF"))))
+ '(tuareg-font-lock-constructor-face ((t (:inherit font-lock-type-face)))))
 
 
 ;;;###autoload
