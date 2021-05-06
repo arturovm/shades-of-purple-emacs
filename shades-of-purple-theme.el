@@ -35,14 +35,16 @@
  '(highlight    ((t (:background "#7E46DF"))))
  '(region       ((t (:background "#B362FF" :foreground "#FFEE80"))))
  ;; ui elements
- '(fringe            ((t (:inherit default))))
- '(line-number       ((t (:foreground "#A599E9"))))
- '(link              ((t (:foreground "#9EFFFF"))))
- '(success           ((t (:foreground "#3AD900" :weight bold))))
- '(warning           ((t (:foreground "#FAD000" :weight bold))))
- '(error             ((t (:foreground "#EC3A37" :weight bold))))
- '(next-error        ((t (:inherit error :weight normal))))
- '(shadow            ((t (:foreground "#494685"))))
+ '(line-number              ((t (:background "#28284E" :foreground "#A599E9"))))
+ '(line-number-current-line ((t (:inherit line-number :foreground "#FAEFA5"))))
+ '(fringe                   ((t (:inherit line-number))))
+ '(hl-line                  ((t (:background "#1F1F41"))))
+ '(link                     ((t (:foreground "#9EFFFF"))))
+ '(success                  ((t (:foreground "#3AD900" :weight bold))))
+ '(warning                  ((t (:foreground "#FAD000" :weight bold))))
+ '(error                    ((t (:foreground "#EC3A37" :weight bold))))
+ '(next-error               ((t (:inherit error :weight normal))))
+ '(shadow                   ((t (:foreground "#494685"))))
  ;; mode-line and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
  '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC" :weight light))))
@@ -62,13 +64,27 @@
  '(isearch        ((t (:background "#FF7300" :foreground "#2D2B55"))))
  '(lazy-highlight ((t (:inherit isearch :background "#FFFF03"))))
  '(match          ((t (:inherit isearch))))
+ ;; rainbow delimiters
+ '(rainbow-delimiters-depth-1-face ((t (:inherit font-lock-constant-face))))
+ '(rainbow-delimiters-depth-2-face ((t (:inherit font-lock-comment-face))))
+ '(rainbow-delimiters-depth-3-face ((t (:inherit font-lock-string-face))))
+ '(rainbow-delimiters-depth-4-face ((t (:inherit font-lock-variable-name-face))))
+ '(rainbow-delimiters-depth-5-face ((t (:inherit font-lock-constant-face))))
+ '(rainbow-delimiters-depth-6-face ((t (:inherit font-lock-comment-face))))
+ '(rainbow-delimiters-depth-7-face ((t (:inherit font-lock-string-face))))
+ '(rainbow-delimiters-depth-8-face ((t (:inherit font-lock-variable-name-face))))
+ '(rainbow-delimiters-depth-9-face ((t (:inherit font-lock-constant-face))))
  ;; ido
  '(ido-subdir     ((t (:foreground "#FFEE80"))))
  '(ido-only-match ((t (:foreground "#FAEFA5"))))
  ;; flycheck
  '(flycheck-warning ((t (:underline (:color "#FAD000" :style wave)))))
  '(flycheck-info    ((t (:underline (:color "#A599E9" :style wave)))))
- '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave))))))
+ '(flycheck-error   ((t (:underline (:color "#EC3A37" :style wave)))))
+ ;; idris
+ '(idris-identifier-face ((t (:inherit font-lock-variable-name-face))))
+ '(idris-operator-face   ((t (:inherit font-lock-builtin-face)))))
+
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
