@@ -66,11 +66,11 @@
  '(match          ((t (:inherit isearch))))
  ;; rainbow delimiters
  '(rainbow-delimiters-depth-1-face ((t (:inherit font-lock-constant-face))))
- '(rainbow-delimiters-depth-2-face ((t (:inherit font-lock-comment-face))))
+ '(rainbow-delimiters-depth-2-face ((t (:inherit font-lock-comment-face :slant normal))))
  '(rainbow-delimiters-depth-3-face ((t (:inherit font-lock-string-face))))
  '(rainbow-delimiters-depth-4-face ((t (:inherit font-lock-variable-name-face))))
  '(rainbow-delimiters-depth-5-face ((t (:inherit font-lock-constant-face))))
- '(rainbow-delimiters-depth-6-face ((t (:inherit font-lock-comment-face))))
+ '(rainbow-delimiters-depth-6-face ((t (:inherit font-lock-comment-face :slant normal))))
  '(rainbow-delimiters-depth-7-face ((t (:inherit font-lock-string-face))))
  '(rainbow-delimiters-depth-8-face ((t (:inherit font-lock-variable-name-face))))
  '(rainbow-delimiters-depth-9-face ((t (:inherit font-lock-constant-face))))
