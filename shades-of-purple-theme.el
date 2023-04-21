@@ -35,7 +35,8 @@
  '(highlight    ((t (:background "#7E46DF"))))
  '(region       ((t (:background "#B362FF" :foreground "#FFEE80"))))
  ;; ui elements
- '(line-number              ((t (:background "#28284E" :foreground "#A599E9"))))
+ '(shadow                   ((t (:foreground "#A599E9"))))
+ '(line-number              ((t (:inherit shadow :background "#28284E"))))
  '(line-number-current-line ((t (:inherit line-number :foreground "#FAEFA5"))))
  '(fringe                   ((t (:inherit line-number))))
  '(hl-line                  ((t (:background "#1F1F41"))))
@@ -44,7 +45,6 @@
  '(warning                  ((t (:foreground "#FAD000" :weight bold))))
  '(error                    ((t (:foreground "#EC3A37" :weight bold))))
  '(next-error               ((t (:inherit error :weight normal))))
- '(shadow                   ((t (:foreground "#494685"))))
  ;; mode-line and minibuffer
  '(mode-line          ((t (:background "#1E1E3F" :foreground "#FFFFFF"))))
  '(mode-line-inactive ((t (:background "#494685" :foreground "#CCCCCC" :weight light))))
